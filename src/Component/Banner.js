@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import { faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Slides from '../Assets/Images/slide-2.jpg';
+// import Slides from '../Assets/Images/profile_picture.png';
 
 class Banner extends Component {
     render() {
         return(
-            <section id="home" className="hero hero-slider-wrapper hero-style-1">
+            <section id="home" className="hero hero-style-1">
                 <div className="hero-slider">
                     <div className="slide">
                         <div className="slider-image">
-                            <img src={Slides}/>
+                            {/* <img src={Slides}/> */}
                         </div>
                         <div className="container">
                             <div className="row">
@@ -33,18 +33,18 @@ class Banner extends Component {
                 <div className="social-links">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="https://twitter.com/Ben_Spotswood">
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="https://www.instagram.com/">
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <FontAwesomeIcon icon={faPinterestP} />
+                            <a href="https://github.com/spotswoodb">
+                                <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </li>
                     </ul>

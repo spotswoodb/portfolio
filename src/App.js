@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from './Component/Banner';
 import About from './Component/About';
-import Service from './Component/Service';
+// import Service from './Component/Service';
 import PricingPlan from './Component/PricingPlan';
 import Blog from './Component/Blog';
 import Contact from './Component/Contact';
@@ -19,7 +19,7 @@ function App() {
             <Navbar />
             <Banner/>
             <About/>
-            <Service/>
+            {/* <Service/> */}
             <Portfolio/>
             <Testimonial/>
             <PricingPlan/>
